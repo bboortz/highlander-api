@@ -1,0 +1,7 @@
+version: '3'
+services:
+  highlander:
+    build: .
+    image: "highlander"
+    ports:
+    - "8444:8444"
